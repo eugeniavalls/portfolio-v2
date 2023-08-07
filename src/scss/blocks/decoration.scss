@@ -1,0 +1,546 @@
+@use "../mixins/hover.scss" as *;
+@use "../mixins/pseudo.scss" as *;
+@use "../mixins/responsive.scss" as *;
+
+.decoration-name {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  color: var(--color-primary);
+  //   background-color: blue;
+  position: absolute;
+  left: 51%;
+
+  // @include hover{
+  //   // color: #156064;
+  //   // color: #A92F16;
+  //   color: var(--color-hover)
+  // }
+
+  @include responsive (tablet){
+    // left: -120px;
+    font-size: 4.6875rem;
+    line-height: 4.3rem;
+    
+  }
+
+  @include responsive (desktop){
+    // left: 0;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+    
+  }
+
+  &--small {
+    font-size: 1.125rem;
+    line-height: 1.4rem;
+    top: 15px;
+
+    @include responsive (tablet){
+      font-size: 2.25rem;
+      line-height: 2.375rem;
+      top: 25px;
+      // left: -60px;
+    }
+
+    @include responsive (desktop){
+      font-size: 4.5rem;
+      line-height: 3.5rem;
+      top: 25px;
+      // left: 30px;
+    }
+  }
+
+  &__item {
+    font-size: 1.5rem;
+    margin-bottom: 0.4rem;
+
+    @include responsive (tablet){
+      font-size: 3.1875rem;
+      margin-bottom: 1.25rem;
+    }
+
+    @include responsive (desktop){
+      font-size: 6rem;
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  &--works {
+    left: 51%;
+
+    @include responsive (tablet){
+      // left: -80px;
+      font-size: 65px;
+    }
+
+    @include responsive (desktop){
+      // left: -170px;
+      // margin-bottom: 60px;
+      font-size: 6rem;
+      line-height: 5rem;
+      top: 25px;
+    }
+  }
+
+  &--website {
+    left: 51%;
+
+    @include responsive (tablet){
+      // left: -100px;
+      font-size: 65px;
+    }
+
+    @include responsive (desktop){
+      // left: -190px;
+      font-size: 6rem;
+      line-height: 5rem;
+      top: 25px;
+    }
+  }
+
+ &--uxui{
+  left: 52%;
+ }
+
+ &--telefonica{
+  left: 52%;
+ }
+
+ &--work-bingo{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: -45px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -170px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+
+ &--work-wordle{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: -45px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -170px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+
+ &--work-c{
+  left: 51%;
+
+  @include responsive (tablet){
+    // left: -245px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -420px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+
+ }
+
+ &--work-easybank{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: 15px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -90px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+
+ &--work-fylo{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: -170px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -330px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+
+ &--work-huddle{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: -85px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -215px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+
+ &--work-insure{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: -105px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -240px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+
+ &--work-loopstudios{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: -170px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -330px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+
+ &--work-skilled{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: -95px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -235px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+
+ &--work-bright{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: 25px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -75px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+
+ &--work-typemaster{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: -160px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -305px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+
+ &--work-creatives{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: 10px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -95px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+
+ &--design{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: -100px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -230px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+
+ &--design-altea{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: -140px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -290px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+
+ &--design-alzheimer{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: 30px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -70px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+
+ &--design-app{
+  left: -30px;
+ }
+
+ &--design-egresados{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: 30px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -50px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+
+ &--design-hokobi{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: -75px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -210px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+ 
+
+ &--design-jovencitas{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: 35px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -60px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+
+ &--design-rotoscopia{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: 55px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -40px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+
+ &--design-serenates{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: 25px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -75px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+
+ &--design-showreels{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: 40px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -60px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+
+ &--design-socvida{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: -45px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -170px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+
+ &--design-video{
+  left: 52%;
+
+  @include responsive (tablet){
+    // left: -120px;
+    font-size: 65px;
+    top: 25px;
+  }
+
+  @include responsive (desktop){
+    // left: -260px;
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 25px;
+  }
+ }
+}
+
+.decoration-symbols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 1.6875rem;
+  gap: 0.5rem;
+
+  @include responsive (tablet){
+    padding: 0 4.875rem;
+    gap: 0.9375rem;
+  }
+
+  @include responsive (desktop){
+    padding: 0 200px;
+    gap: 0.9375rem;
+    margin-top: 4rem;
+  }
+
+  &__image {
+    background-image: url(../assets/images/phone/ipad-movil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+    @include responsive (tablet){
+      background-image: url(../assets/images/tablet/ipad-tablet.jpg);
+    }
+
+    @include responsive (desktop){
+      background-image: url(../assets/images/desktop/ipad-desktop.jpg);
+    }
+  }
+
+  &__circles {
+    grid-column: 1/3;
+  }
+}

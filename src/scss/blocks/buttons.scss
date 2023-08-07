@@ -1,0 +1,49 @@
+@use "../mixins/hover.scss" as *;
+@use "../mixins/pseudo.scss" as *;
+@use "../mixins/responsive.scss" as *;
+
+.buttons__works{
+    width: 180px;
+    position: absolute;
+    left: 52%;
+    top: 0;
+    // z-index: -1;
+
+    @include responsive (tablet){
+        width: 220px;
+        // left: 395px;
+        margin-bottom: 2.25rem;
+        top: 15px;
+    }
+
+    @include responsive (desktop){
+        width: 280px;
+        // left: 730px;
+        margin-bottom: 3rem;
+        top: 0;
+    }
+    
+}
+
+.button__work{
+    background-color: var(--color-primary);
+    border-color: transparent;
+    border-radius: 50px;
+    color: white;
+    font-size: 12px;
+    padding: 6px 12px;
+
+    @include responsive (tablet){
+        font-size: 16px;
+        padding: 8px 14px;
+    }
+
+    @include responsive (desktop){
+        font-size: 24px;
+        padding: 12px 18px;
+        margin-right: 10px;
+    }
+}
+
+
+

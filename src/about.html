@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- PON UN FAVICON!!! -->
+    <link rel="icon" type="image/svg+xml" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>e.valls</title>
+  </head>
+  <body>
+    <header class="header header--about">
+      <nav>
+        <ul class="menu">
+          <li class="menu__item">
+            <a class="menu__link menu__link--logo" href="/">e.</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="about.html" data-section="header" data-value="about">About</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="works.html" data-section="header" data-value="works">Projects</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="decoration-name decoration-name--small">
+        <span class="decoration-name__item">eugenia valls</span>
+        <span>front-end</span>
+        <span>ux/ui</span>
+        <span data-section="about-header" data-value="design">graphic designer</span> 
+      </div>
+
+      <div class="flags" id="flags">
+        <div class="flags__item" data-language="es">
+          <img class="flags__img" src="./assets/images/es.svg" alt="es">
+        </div>
+        <div class="flags__item" data-language="en">
+          <img class="flags__img" src="./assets/images/gb.svg" alt="en">
+        </div>
+      </div>
+    </header>
+
+    <main class="main main--about">
+      <div class="first-section">
+        <picture class="first-section__picture">
+          <source
+            media="(min-width: 1040px)"
+            srcset="./assets/images/desktop/yo-desktop.jpg"
+          />
+          <source
+            media="(min-width:720px)"
+            srcset="./assets/images/tablet/yo-tablet.jpg"
+          />
+          <img 
+            class="first-section__image"
+            src="./assets/images/phone/yo-movil.jpg"
+            alt="yo"
+          />
+        </picture>
+
+        <picture class="first-section__picture">
+          <source
+            media="(min-width: 1040px)"
+            srcset="./assets/images/desktop/circulos-about-desktop.svg"
+          />
+          <source
+            media="(min-width: 720px)"
+            srcset="./assets/images/tablet/circulos-about-tablet.svg"
+          />
+          <img
+            class="first-section__vector"
+            src="./assets/images/phone/circulos-about-movil.svg"
+            alt="circulos"
+          />
+        </picture>
+      </div>
+
+      <section class="specialities">
+        <h2 class="title" data-section="about-do" data-value="about-do-title">What can I do?</h2>
+        <div class="specialities__container">
+          <div class="specialities__item">
+            <div class="specialities__picture">
+              <img
+                src="./assets/images/tablet/front-end-tablet.svg"
+                alt="front-end"
+              />
+            </div>
+
+            <div class="specialities__info">
+              <h3 class="subtitle">Front-end</h3>
+              <p class="text" data-section="about-do" data-value="about-do-front-end">
+                Translate the visual design of a website into HTML, CSS and
+                JavaScript code.
+              </p>
+            </div>
+          </div>
+
+          <div class="specialities__item">
+            <div class="specialities__picture">
+              <img
+                src="./assets/images/tablet/ux-ui-tablet.svg"
+                alt="front-end"
+              />
+            </div>
+
+            <div class="specialities__info">
+              <h3 class="subtitle">UX/UI </h3>
+              <p class="text" data-section="about-do" data-value="about-do-uxui">
+                Define the interaction in an interface with investigation,
+                design and technology.
+              </p>
+            </div>
+          </div>
+
+          <div class="specialities__item">
+            <div class="specialities__picture">
+              <img
+                src="./assets/images/tablet/graphic-designer-tablet.svg"
+                alt="front-end"
+              />
+            </div>
+
+            <div class="specialities__info">
+              <h3 class="subtitle" data-section="about-do" data-value="about-do-design-title">Graphic Designer</h3>
+              <p class="text" data-section="about-do" data-value="about-do-design">
+                Convey a message or an idea through visual communication.
+              </p>
+            </div>
+          </div>
+
+      </div>
+      </section>
+
+      <section class="skills">
+        <h2 class="title" data-section="about-skills" data-value="skills">Skills</h2>
+        <div class="skills__icons">
+          <div class="skills__icon">
+            <img class="icon" src="./assets/images/phone/icono-html-movil.svg" alt="html" />
+            <p class="text">HTML 5</p>
+          </div>
+          <div class="skills__icon">
+            <img class="icon" src="./assets/images/phone/icono-css-movil.svg" alt="css" />
+            <p class="text">CSS 3</p>
+          </div>
+          <div class="skills__icon">
+            <img class="icon"
+              src="./assets/images/phone/icono-javascript-movil.svg"
+              alt="javascript"
+            />
+            <p class="text">JavaScript</p>
+          </div>
+          <div class="skills__icon">
+            <img class="icon"
+              src="./assets/images/phone/icono-visual-studio-movil.svg"
+              alt="visual studio"
+            />
+            <p class="text">Visual Studio</p>
+          </div>
+          <div class="skills__icon">
+            <img class="icon"
+              src="./assets/images/phone/icono-github-movil.svg"
+              alt="git hub"
+            />
+            <p class="text">GitHub</p>
+          </div>
+          <div class="skills__icon">
+            <img class="icon"
+              src="./assets/images/phone/icono-figma-movil.svg"
+              alt="figma"
+            />
+            <p class="text">Figma</p>
+          </div>
+          <div class="skills__icon">
+            <img class="icon"
+              src="./assets/images/phone/icono-adobe-xd-movil.svg"
+              alt="adobe xd"
+            />
+            <p class="text">Adobe XD</p>
+          </div>
+          <div class="skills__icon">
+            <img class="icon"
+              src="./assets/images/phone/icono-photoshop-movil.svg"
+              alt="photoshop"
+            />
+            <p class="text">Adobe Photoshop</p>
+          </div>
+          <div class="skills__icon">
+            <img class="icon"
+              src="./assets/images/phone/icono-illustrator-movil.svg"
+              alt="illustrator"
+            />
+            <p class="text">Adobe Illustrator</p>
+          </div>
+          <div class="skills__icon">
+            <img class="icon"
+              src="./assets/images/phone/icono-indesign-movil.svg"
+              alt="indesign"
+            />
+            <p class="text">Adobe InDesign</p>
+          </div>
+          <div class="skills__icon">
+            <img class="icon"
+              src="./assets/images/phone/icono-after-effects-movil.svg"
+              alt="after effects"
+            />
+            <p class="text">After Effects</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="academic">
+        <h2 class="title" data-section="about-academic" data-value="academic-title">Academic trajectory</h2>
+        <div class="academic__content">
+          
+          <picture class="academic__picture">
+            <source
+              media="(min-width: 1040px)"
+              srcset="./assets/images/tablet/academic-tablet.svg"
+            />
+            <source
+              media="(min-width: 720px)"
+              srcset="./assets/images/tablet/academic-tablet.svg"
+            />
+            <img
+              class="academic__picture"
+              src="./assets/images/phone/academic-movil.svg"
+              alt="circulos"
+            />
+          </picture>
+
+          <div class="academic__text">
+            <div class="academic__text-container">
+              <h3 class="subtitle" data-section="about-academic" data-value="academic-date-cei">2023 - Currently</h3>
+              <p class="text text--medium" data-section="about-academic" data-value="academic-place-cei">
+                Web Full Stack Development Course in CEI Madrid (Madrid, Madrid).
+              </p>
+              <p class="text" data-section="about-academic" data-value="academic-info-cei">
+                MERN (MongoDB, ExpressJS, ReactJS, NodeJS), JavaScript, AJAX, Data bases (PostgreSQL and MySQL).
+              </p>
+            </div>
+
+            <div class="academic__text-container">
+              <h3 class="subtitle" data-section="about-academic" data-value="academic-date-unir">2023 - Currently</h3>
+              <p class="text text--medium" data-section="about-academic" data-value="academic-place-unir">
+                Digital & Soft skills course at UNIR - La Universidad en Internet (Online).
+              </p>
+            </div>
+
+            <div class="academic__text-container">
+              <h3 class="subtitle" data-section="about-academic" data-value="academic-date-master">2022 - 2023</h3>
+              <p class="text text--medium" data-section="about-academic" data-value="academic-place-master">
+                Master's professional degree in web front-end design and UX/UI in Escuela Trazos (Madrid, Madrid). 
+              </p>
+              <p class="text" data-section="about-academic" data-value="academic-info-first-master">
+                Agile methodologies, MVP, Scope Canvas, Value Proposition Canvas,
+                Lean UX, Benchmark, Card Sorting, Affinity Diagram, User Persona,
+                User Journey, Moscow, Site map, Navigation flow, Low-fi, Mid-fi,
+                Visual benchmark, UI Kit, brand attributes, moodboard, High-Fi,
+                prototyping, interactions, etc.
+              </p>
+              <p class="text" data-section="about-academic" data-value="academic-info-second-master">
+                HTML5, semantic use of tags, structure, links, pictures, tables, forms, CSS3, pseudo-elements, flex layout, grid layout, transition, BEM methodology, responsive: @media,  SASS variables, using Mixins, JavaScript, variables, declaration, assignment, timers, objects, arrays, DOM events, functions: parameters and invocation, logical structures: loops and conditionals, selectors, events, JavaScript effects along with CSS, etc. 
+              </p>
+            </div>
+
+            <div class="academic__text-container">
+              <h3 class="subtitle" data-section="about-academic" data-value="academic-date-easd">2018 - 2022</h3>
+              <p class="text text--medium" data-section="about-academic" data-value="academic-place-easd">
+                Degree in Graphic Design at Escuela de Arte y Superior de Diseño de Valencia (Valencia, Valencia). 
+              </p>
+            </div>
+
+            <div class="academic__text-container academic__text-container--final ">
+              <h3 class="subtitle" data-section="about-academic" data-value="academic-certificates">Certificates and others</h3>
+              <p class="text text--medium" data-section="about-academic" data-value="certificate-microsoft">
+                Course AZ-305T00 - Infrastructure solutions design of Microsoft Azure.
+              </p>
+              <p class="text text--medium" data-section="about-academic" data-value="certificate-google">
+                Mobile App Development Course at Universidad Complutense of Madrid for Google.
+              </p>
+              <p class="text text--medium" data-section="about-academic" data-value="certificate-escuela42">
+                Piscine Discovery Women's Edition, programming and digital talent in women in Escuela42 (Madrid, Madrid).
+              </p>
+              <p class="text text--medium" data-section="about-academic" data-value="certificate-uimp">
+                Intensive English language immersion course at the Universidad Internacional Menéndez Pelayo (Santander, Cantabria).
+              </p>
+              <p class="text text--medium" data-section="about-academic" data-value="certificate-productivity">
+                Course of productivity boosting techniques.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience">
+        <h2 class="title" data-section="about-experience" data-value="experience-title">Professional experience</h2>
+        <div class="experience__content">
+          
+          <picture class="experience__picture">
+            <source
+              media="(min-width: 1040px)"
+              srcset="./assets/images/tablet/experience-tablet.svg"
+            />
+            <source
+              media="(min-width: 720px)"
+              srcset="./assets/images/tablet/experience-tablet.svg"
+            />
+            <img
+              class="experience__picture"
+              src="./assets/images/phone/experience-movil.svg"
+              alt="circulos"
+            />
+          </picture>
+          
+          <div class="experience__text">
+            <div class="experience__text-container">
+              <h3 class="subtitle" data-section="about-experience" data-value="first-job-date">February 2023 - Currently</h3>
+              <p class="text text--medium" data-section="about-experience" data-value="first-job-title">
+                Telefónica B2B. Commercial approach and New Businesses
+              </p>
+              <ul class="experience__jobs">
+                <li class="experience__job text" data-section="about-experience" data-value="first-job-info1">
+                  - Design and development of instructive infographics for the
+                  Telefónica Sales Force.
+                </li>
+                <li class="experience__job text" data-section="about-experience" data-value="first-job-info2">
+                  - Preparation of executive business presentations with high
+                  visual impact.
+                </li>
+                <li class="experience__job text" data-section="about-experience" data-value="first-job-info3">
+                  - Development of creatives to dynamize the project in social
+                  networks.
+                </li>
+                <li class="experience__job text" data-section="about-experience" data-value="first-job-info4">
+                  - Design and elaboration of newsletters.
+                </li>
+                <li class="experience__job text" data-section="about-experience" data-value="first-job-info5">
+                  - Participation in the in-house design process of courses and
+                  other training content.
+                </li>
+                <li class="experience__job text" data-section="about-experience" data-value="first-job-info6">
+                  - Support in the preparation of professional documentation for
+                  corporate reporting.
+                </li>
+              </ul>
+            </div>
+
+            <div class="experience__text-container">
+              <h3 class="subtitle" data-section="about-experience" data-value="second-job-date">May 2022 - September 2022</h3>
+              <p class="text text--medium" data-section="about-experience" data-value="second-job-title">
+                Copy shop Andrés (Canals, Valencia).
+              </p>
+              <p class="text" data-section="about-experience" data-value="second-job-info">Graphic Designer.</p>
+            </div>
+
+            <div class="experience__text-container">
+              <h3 class="subtitle" data-section="about-experience" data-value="third-job-date">November 2021 - February 2022</h3>
+              <p class="text text--medium" data-section="about-experience" data-value="third-job-title">
+                Web and Marketing Unit at the University of Valencia. (Burjassot,
+                Valencia).
+              </p>
+              <p class="text" data-section="about-experience" data-value="third-job-info">Graphic Designer.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+    </main>
+
+    <footer class="footer">
+      <h2 class="footer__subtitle" data-section="footer" data-value="footer-title">Let's work together</h2>
+      <div class="footer__contact">
+        <p>e.vallsalfaro@gmail.com</p>
+        <p>667 387 355</p>
+        <div class="footer__rrss">
+          <a href="https://www.linkedin.com/in/eugenia-valls-alfaro-540b1a20a">
+            <img class="footer__media" src="./assets/images/rrss/icono-linkedin-movil.svg" alt="linkedin">
+          </a>
+          <a href="https://github.com/eugeniavalls">
+            <img class="footer__media" src="./assets/images/rrss/icono-github-movil.svg" alt="github">
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>

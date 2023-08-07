@@ -1,0 +1,66 @@
+@use "../mixins/hover.scss" as *;
+@use "../mixins/pseudo.scss" as *;
+@use "../mixins/responsive.scss" as *;
+
+.design-process__container{
+    margin-bottom: 1.5rem;
+
+    @include responsive (tablet){
+      margin-bottom: 1.5rem;
+    }
+
+    @include responsive (desktop){
+      margin-bottom: 3.2rem;
+    }
+}
+
+.design {
+
+  &__icons {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 44px);
+    gap: 1rem;
+    margin-bottom: 1.8rem;
+    align-items: center;
+
+    @include responsive (tablet){
+      grid-template-columns: repeat(5,64px);
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    @include responsive (desktop){
+      grid-template-columns: repeat(5,100px);
+      text-align: center;
+      margin-bottom: 4.5rem;
+    }
+  }
+
+  &__icon {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    @include responsive (tablet){
+      gap: 1rem;
+    }
+
+    @include responsive (desktop){
+      gap: 1.5rem;
+    }
+  }
+}
+
+.icon{ 
+  @include responsive (tablet){
+     width: 64px;
+  }
+
+  @include responsive (desktop){
+    width: 100px;
+ }
+   
+} 
+

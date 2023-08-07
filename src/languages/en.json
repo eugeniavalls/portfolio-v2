@@ -1,0 +1,198 @@
+{
+    "header":{
+        "about": "About",
+        "works": "Projects"
+    },
+
+    "about-header":{ 
+        "design": "graphic designer"
+    },
+
+    "about-do":{
+        "about-do-title": "What can I do?",
+        "about-do-front-end": "Translate the visual design of a website into HTML, CSS and JavaScript code.",
+        "about-do-uxui": "Define the interaction in an interface with investigation, design and technology.",
+        "about-do-design-title": "Graphic Designer",
+        "about-do-design": "Convey a message or an idea through visual communication."
+    },
+
+    "about-skills":{
+        "skills": "Skills"
+    },
+
+    "about-academic":{
+        "academic-title": "Academic trajectory", 
+
+        "academic-date-cei": "2023 - Currently", 
+        "academic-place-cei": "Web Full Stack Development Course in CEI Madrid (Madrid, Madrid).",
+        "academic-info-cei": "MERN (MongoDB, ExpressJS, ReactJS, NodeJS), JavaScript, AJAX, Data bases (PostgreSQL and MySQL).", 
+
+        "academic-date-unir": "2023 - Currently", 
+        "academic-place-unir": "Digital & Soft skills course at UNIR - La Universidad en Internet (Online).",
+
+        "academic-date-master": "2022 - 2023", 
+        "academic-place-master": "Master's professional degree in web front-end design and UX/UI in Escuela Trazos (Madrid, Madrid).",
+        "academic-info-first-master": "Agile methodologies, MVP, Scope Canvas, Value Proposition Canvas, Lean UX, Benchmark, Card Sorting, Affinity Diagram, User Persona, User Journey, Moscow, Site map, Navigation flow, Low-fi, Mid-fi, Visual benchmark, UI Kit, brand attributes, moodboard, High-Fi, prototyping, interactions, etc.", 
+        "academic-info-second-master": "HTML5, semantic use of tags, structure, links, pictures, tables, forms, CSS3, pseudo-elements, flex layout, grid layout, transition, BEM methodology, responsive: @media, SASS variables, using Mixins, JavaScript, variables, declaration, assignment, timers, objects, arrays, DOM events, functions: parameters and invocation, logical structures: loops and conditionals, selectors, events, JavaScript effects along with CSS, etc.", 
+
+        "academic-date-easd": "2018 - 2022", 
+        "academic-place-easd": "Degree in Graphic Design at Escuela de Arte y Superior de Diseño de Valencia (Valencia, Valencia).",
+
+        "academic-certificates": "Certificates and others",
+        "certificate-microsoft": "Course AZ-305T00 - Infrastructure solutions design of Microsoft Azure.",
+        "certificate-google": "Mobile App Development Course at Universidad Complutense of Madrid for Google.",
+        "certificate-escuela42": "Piscine Discovery Women's Edition, programming and digital talent in women in Escuela42 (Madrid, Madrid).",
+        "certificate-uimp": "Intensive English language immersion course at the Universidad Internacional Menéndez Pelayo (Santander, Cantabria).",
+        "certificate-productivity": "Course of productivity boosting techniques."
+    },
+
+    "about-experience":{
+        "experience-title": "Professional experience", 
+
+        "first-job-date": "February 2023 - Currently", 
+        "first-job-title": "Telefónica B2B. Commercial approach and New Businesses",
+        "first-job-info1": "- Design and development of instructive infographics for the Telefónica Sales Force.",
+        "first-job-info2": "- Preparation of executive business presentations with high visual impact.",
+        "first-job-info3": "- Development of creatives to dynamize the project in social networks.",
+        "first-job-info4": "- Design and elaboration of newsletters.",
+        "first-job-info5": "- Participation in the in-house design process of courses and other training content.",
+        "first-job-info6": "- Support in the preparation of professional documentation for corporate reporting.",
+
+        "second-job-date": "May 2022 - September 2022", 
+        "second-job-title": "Copy shop Andrés (Canals, Valencia).",
+        "second-job-info": "Graphic Designer.",
+
+        "third-job-date": "November 2021 - February 2022", 
+        "third-job-title": "Web and Marketing Unit at the University of Valencia. (Burjassot, Valencia).",
+        "third-job-info": "Graphic Designer."
+    },
+
+    "projects":{
+        "projects-title1": "projects",
+        "projects-title2": "project"
+    },
+
+    "description":{
+        "button-description": "Description"
+    },
+
+    "design":{
+        "design-title1": "design",
+        "design-title2": "desig", 
+        "design-title3": "desi", 
+        "design-title4": "des."
+    },
+
+    "prototype":{
+        "button-prototype": "Prototype"
+    },
+
+    "problems":{
+        "problems-title": "Problems",
+        "problems-text": "Individuals with emotional dependency are aware that they suffer from it, but they do not know how to manage or overcome it."
+    },
+
+    "solutions":{
+        "solutions-title": "Solutions",
+        "solutions-text": "My proposed solution is to create an application that provides assistance to those individuals who have emotional dependency and want to address the issue (from providing advice, meditations, connecting with others, etc.)."
+    },
+
+    "design-process":{
+        "design-process-title": "Design Process",
+        "design-process-text": "The Design Thinking process is a structured method for developing digital products, services, or experiences that effectively address user needs. We have utilized the following procedure to design our product: understanding and connecting with the user to identify their challenges, generating ideas based on these insights, transforming them into a prototype, and then seeking user feedback to refine and enhance the product.",
+        "design-process-emphtaize": "Empthaize",
+        "design-process-define": "Define",
+        "design-process-ideate": "Ideate",
+        "design-process-prototype": "Prototype",
+        "design-process-test": "Test"
+    },
+
+    "affinity":{
+        "affinity-title": "Affinity diagram",
+        "affinity-miedos": "Fears",
+        "affinity-soledad": "Loneliness",
+        "affinity-rechazo": "Rejection",
+        "affinity-abandono": "Abandonment",
+        "affinity-desilusion": "Disappointment",
+        "affinity-no-proyeccion": "Lack of projection",
+        "affinity-decepcion": "Disappointment",
+        "affinity-desconfianza": "Distrust",
+        "affinity-inseguridad": "Insecurity",
+        "affinity-ruptura": "Breakup",
+        "affinity-necesidades": "Needs",
+        "affinity-soporte-amoroso": "Amorous support",
+        "affinity-sentirse-queridx": "Feeling loved",
+        "affinity-sentirse-acompañadx": "Feeling accompanied",
+        "affinity-planes": "Plans",
+        "affinity-leer": "Read",
+        "affinity-pasear": "Strolling",
+        "affinity-ver-series": "Watch TV series",
+        "affinity-limpieza-interior": "Inner cleansing",
+        "affinity-estar-solx-en-la-cama": "Being alone in bed",
+        "affinity-pasar-tiempo-solx": "Spending time alone",
+        "affinity-personalidad": "Personality",
+        "affinity-toxicidad": "Toxicity",
+        "affinity-ansiedad": "Anxiety",
+        "affinity-tranquila": "Calm",
+        "affinity-obsesiva": "Obsessive",
+        "affinity-independiente": "Independent",
+        "affinity-loca": "'Crazy'",
+        "affinity-vinculos": "Connections",
+        "affinity-expareja": "Ex-partner",
+        "affinity-pareja": "Partner",
+        "affinity-amigos": "Friends"
+    },
+
+    "user-persona":{
+        "user-persona-title": "Patri, 23 years old",
+        "user-persona-text1": "Patri is a girl who lives in Madrid.",
+        "user-persona-text2": "Patri has lived here her whole life and met her partner in university. Her partner is not from here, and they recently moved in together.",
+        "user-persona-text3": "She loves family life and doesn't see beyond that.",
+        "user-persona-text4": "Patri has emotional dependency but doesn't know how to manage it or find a solution.",
+        "user-persona-personalidad": "Personality",
+        "user-persona-personalidad1": "- Extroverted",
+        "user-persona-personalidad2": "- Seeks external validation",
+        "user-persona-personalidad3": "- Affectionate only with her partner",
+        "user-persona-personalidad4": "- Distant",
+        "user-persona-motivaciones": "Motivations",
+        "user-persona-motivaciones1": "- Spending time with her partner",
+        "user-persona-motivaciones2": "- Starting a family",
+        "user-persona-motivaciones3": "- Believing that her partner will never leave her",
+        "user-persona-estilo-de-vida": "Lifestyle",
+        "user-persona-estilo-de-vida1": "- Consumerist",
+        "user-persona-estilo-de-vida2": "- Works",
+        "user-persona-estilo-de-vida3": "- She no longer sees her lifelong friends.",
+        "user-persona-estilo-de-vida4": "- She doesn't maintain any work-related ties.",
+        "user-persona-creencias": "Beliefs",
+        "user-persona-creencias1": "Patri used to not believe in anything, only in energies and infinity. But since she's been with Pedro, she has become Catholic and no longer believes in her own previous beliefs.",
+        "user-persona-frustraciones": "Frustrations",
+        "user-persona-frustraciones1": "- She has realized that she has emotional dependency.",
+        "user-persona-frustraciones2": "- She is afraid of change.",
+        "user-persona-frustraciones3": "- She knows that things are not right, she just doesn't confront them.",
+        "user-persona-necesidades-y-deseos": "Needs and Desires",
+        "user-persona-necesidades-y-deseos1": "- Has a constant need for her partner",
+        "user-persona-necesidades-y-deseos2": "- She wishes he could be the man of her life, even if she has to give up her own values, beliefs, friendships, or anything else."
+    },
+
+    "style-guide":{
+        "style-guide-title": "Style guide",
+        "style-guide-tipografia": "Typography",
+        "style-guide-colores": "Colors",
+        "style-guide-color-primario": "Primary color",
+        "style-guide-color-secundario": "Secundary color",
+        "style-guide-color-texto": "Text color",
+        "style-guide-componentes": "Components",
+        "style-guide-botones": "Buttons",
+        "style-guide-toolbar": "Toolbar",
+        "style-guide-iconos": "Icons",
+        "style-guide-recursos": "Resources",
+        "style-guide-low-fidelity": "Low-fidelity",
+        "style-guide-high-fidelity": "High-fidelity"
+    },
+
+    "footer":{
+        "footer-title": "Let's work together"
+    }
+
+ 
+}

@@ -1,0 +1,53 @@
+@use "../mixins/hover.scss" as *;
+@use "../mixins/pseudo.scss" as *;
+@use "../mixins/responsive.scss" as *;
+
+.academic {
+  padding: 0 27px;
+
+  @include responsive (tablet){
+    padding: 0 78px;
+    margin-bottom: 3.75rem;
+  }
+
+  @include responsive (desktop){
+    padding: 0 200px;
+    margin-bottom: 4rem;
+  }
+
+  &__picture{
+    @include responsive (tablet){
+      flex-shrink: 0;
+      width: 200px;
+    }
+
+    @include responsive (desktop){
+      flex-shrink: 0;
+      width: 350px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    @include responsive (tablet){
+      flex-direction: row;
+      gap: 1rem;
+    }
+
+    @include responsive (desktop){
+      flex-direction: row;
+      gap: 3rem;
+    }
+  }
+
+  &__text-container{
+    margin-bottom: 1.8rem;
+
+    &--final {
+      margin-bottom: 1rem;
+    }
+  }
+}

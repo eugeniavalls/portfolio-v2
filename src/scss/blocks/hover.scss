@@ -1,0 +1,9 @@
+@use "../mixins/hover.scss" as *;
+@use "../mixins/pseudo.scss" as *;
+@use "../mixins/responsive.scss" as *;
+
+.hover__vector:hover{
+    // filter: grayscale(1) sepia(100%) hue-rotate(200deg);
+    // filter: grayscale(1) sepia(100%) hue-rotate(1deg) brightness(0.7) saturate(1000%) contrast(250%);
+    filter: grayscale(1) sepia(100%) hue-rotate(1deg) brightness(1.2) saturate(700%);
+  }

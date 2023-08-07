@@ -1,0 +1,87 @@
+/* ESTILOS DEL FOOTER */
+
+@use "../mixins/hover.scss" as *;
+@use "../mixins/pseudo.scss" as *;
+@use "../mixins/responsive.scss" as *;
+
+.footer {
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.625rem 1.6875rem;
+
+  // @include hover{
+  //   background-color: var(--color-hover);
+  // }
+
+  @include responsive (tablet){
+    padding: 1.75rem 4.875rem;
+  }
+
+  @include responsive (desktop){
+    padding: 1.75rem 200px;
+  }
+
+  &__subtitle {
+    font-size: 0.9375rem;
+    color: var(--white);
+
+    @include responsive (tablet){
+      font-size: 1.5rem;
+    }
+
+    @include responsive (desktop){
+      font-size: 2rem;
+    }
+  }
+
+  &__contact {
+    font-family: var(--font-family-montserrat);
+    font-size: 0.4375rem;
+    text-align: right;
+    color: var(--white);
+
+    @include responsive (tablet){
+      font-size: 0.75rem;
+    }
+
+    @include responsive (desktop){
+      font-size: 0.9rem;
+    }
+
+    & p {
+      margin: 0.2rem;
+    }
+  }
+
+  &__rrss{
+    display: flex;
+    justify-content: end;
+    gap: 0.5rem;
+    
+  }
+
+  &__media{
+    width: 15px;
+
+    @include responsive (tablet){
+      width: 20px;
+    }
+
+    @include responsive (desktop){
+      width: 23px;
+    }
+  }
+
+  &--fixed{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+
+      @include responsive (desktop){
+        bottom: 0;
+        position: relative;
+      }
+  }
+}

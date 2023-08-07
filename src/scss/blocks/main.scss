@@ -1,0 +1,86 @@
+/* ESTILOS DEL MAIN */
+@use "../mixins/hover.scss" as *;
+@use "../mixins/pseudo.scss" as *;
+@use "../mixins/responsive.scss" as *;
+
+.main {
+  margin-bottom: 1.875rem;
+  margin-top: 1.5rem;
+  position: relative;
+
+  @include responsive (tablet){
+    margin-bottom: 4.875rem;
+  } 
+
+  &--about {
+    position: relative;
+    top: -35px;
+
+    @include responsive (tablet){
+      top: -190px;
+    }
+
+    @include responsive (desktop){
+      top: -330px;
+      margin-bottom: -50px;
+    }
+  }
+
+  &--works {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    gap: 1.5rem;
+    padding: 0 27px;
+
+    @include responsive (tablet){
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      align-items: end;
+    }
+
+    @include responsive (desktop){
+      padding: 0 200px;
+      gap: 15px;
+      align-items: end;
+      margin-bottom: 150px;
+    }
+  }
+
+  &--uxui{
+    padding: 0 27px;
+
+    @include responsive (tablet){
+      padding: 0 78px;
+    }
+
+    @include responsive (desktop){
+      padding: 0 200px;
+    }
+  }
+}
+
+.main-works--image-ux{
+  @include responsive (tablet){
+    position: relative;
+    top: -60px;
+  }
+
+  @include responsive (desktop){
+    position: relative;
+    top: -87px;
+  }
+}
+
+.main-works--image-telefonica{
+  @include responsive (tablet){
+    position: relative;
+    top: 5px;
+  }
+
+  @include responsive (desktop){
+    position: relative;
+    top: 8px;
+  }
+}

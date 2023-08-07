@@ -1,0 +1,75 @@
+@use "../mixins/hover.scss" as *;
+@use "../mixins/pseudo.scss" as *;
+@use "../mixins/responsive.scss" as *;
+
+.front-page{
+    padding: 0 27px;
+
+    @include responsive (tablet){
+        padding: 0 78px;
+    }
+
+    @include responsive (desktop){
+        padding: 0 200px;
+        margin-bottom: 150px;
+    }
+
+    &__image{
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        // height: 220px;
+        width: 100%;
+        border: 2.75px solid var(--color-primary);
+        // box-shadow: 0 0 10px 0 var(--color-primary);
+
+        @include responsive (tablet){
+            border-top-left-radius: 80px;
+            border-bottom-right-radius: 80px;
+            border: 3.5px solid var(--color-primary);
+        }
+
+        @include responsive (desktop){
+            border-top-left-radius: 80px;
+            border-bottom-right-radius: 80px;
+            border: 4.25px solid var(--color-primary);
+        }
+
+    &--container {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+        padding-top: 60px;
+
+        @include responsive (tablet){
+            padding-top: 90px;
+        }
+
+        @include responsive (desktop){
+            padding-top: 120px;
+            gap: 2.5rem;
+        }
+    }
+
+    &--blocks{
+        display: flex;
+        gap: 1.25rem;
+        flex-direction: column;
+
+        @include responsive (tablet){
+            flex-direction: row;
+            width: 295px;   
+        }
+
+        @include responsive (desktop){
+            flex-direction: row;
+            width: 510px;   
+        }
+
+        &--creatives{
+            @include responsive (desktop){
+                width: 1040px;   
+            } 
+        }
+    }
+    }
+}

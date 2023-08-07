@@ -1,0 +1,75 @@
+@use "../mixins/hover.scss" as *;
+@use "../mixins/pseudo.scss" as *;
+@use "../mixins/responsive.scss" as *;
+
+
+.persona{
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        gap: 1.5rem;
+        margin-bottom: 1rem;
+
+        @include responsive (tablet){
+            gap: 3rem;
+            margin-bottom: 1.5rem;
+        }
+      
+        @include responsive (desktop){
+            gap: 3rem;
+            margin-bottom: 2rem;
+        }
+        
+    }
+
+    &__picture{
+        width: 100px;
+
+        @include responsive (tablet){
+            width: 260px;
+        }
+      
+        @include responsive (desktop){
+            width: 390px;
+        }
+    }
+
+    &__table{
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(2, 150px);
+        gap: 0.7rem;
+        align-items: center;
+        text-align: left;
+        margin-bottom: 1rem;
+        
+        @include responsive (tablet){
+            grid-template-columns: repeat(2, 290px);
+            align-items: start;
+            margin-bottom: 1.5rem;
+        }
+        
+        @include responsive (desktop){
+            grid-template-columns: repeat(2, 490px);
+            align-items: start;
+            gap: 1.5rem;
+        }
+
+        &--container{
+            background-color: var(--color-description);
+            padding: 13px;
+            border-radius: 8px;
+
+            @include responsive (tablet){
+                padding: 26px;
+                border-radius: 12px;
+            }
+            
+            @include responsive (desktop){
+                padding: 39px;
+                border-radius: 16px;
+            }
+
+        }
+    }
+}

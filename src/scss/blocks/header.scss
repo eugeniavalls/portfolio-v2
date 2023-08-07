@@ -1,0 +1,32 @@
+@use "../mixins/hover.scss" as *;
+@use "../mixins/pseudo.scss" as *;
+@use "../mixins/responsive.scss" as *;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8125rem 3.875rem 0 1.6875rem;
+  margin-bottom: 135px;
+
+  &--about {
+    padding: 0.8125rem 1.6875rem 0 1.6875rem; 
+    margin-bottom: 110px;
+
+    @include responsive (tablet){
+      margin-bottom: 0;
+    }
+
+    @include responsive (desktop){
+      margin-bottom: 0;
+    }
+  }
+
+  @include responsive (tablet){
+    margin-bottom: 230px;
+  }
+
+  @include responsive (desktop){
+    padding: 0 200px;
+    margin-bottom: 320px;
+  }
+}

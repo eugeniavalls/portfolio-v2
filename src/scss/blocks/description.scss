@@ -1,0 +1,97 @@
+@use "../mixins/hover.scss" as *;
+@use "../mixins/pseudo.scss" as *;
+@use "../mixins/responsive.scss" as *;
+
+
+.description{
+    display: none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 27px;
+    background-color: var(--color-description);
+    border-radius: 20px;
+    position: fixed;
+    left: 5%;
+    z-index: 100;
+
+    @include responsive (tablet){
+        padding: 25px 40px;
+        border-radius: 30px;
+    }
+
+    @include responsive (desktop){
+        padding: 35px 55px;
+        border-radius: 50px;
+    }
+
+    &__close{
+        color: var(--color-primary);
+        position: absolute;
+        right: 5%;
+
+        @include responsive (tablet){
+            font-size: 22px;
+        }
+
+        @include responsive (desktop){
+            font-size: 30px;
+        }
+    }
+
+    &__container-text{
+        padding-top: 5%;
+        margin-bottom: 1.5rem;
+
+        @include responsive (tablet){
+            margin-bottom: 2.2rem;
+        }
+
+        @include responsive (desktop){
+            margin-bottom: 2.9rem;
+        }
+    }
+
+    &__icons{
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+
+        @include responsive (tablet){
+            margin-bottom: 2.2rem;
+        }
+
+        @include responsive (desktop){
+            margin-bottom: 2.9rem;
+            gap: 1.5rem;
+        }
+    }
+
+    &__icon{
+        width: 20px;
+
+        @include responsive (tablet){
+            width: 27px;
+        }
+
+        @include responsive (desktop){
+            width: 38px;
+        }
+
+        &--small{
+            width: 27px;
+
+            @include responsive (tablet){
+                width: 34px;
+            }
+
+            @include responsive (desktop){
+                width: 45px;
+            }
+        }
+    }
+}
+
+.visible{
+    display: block;
+}

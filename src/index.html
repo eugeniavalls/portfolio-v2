@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- PON UN FAVICON!!! -->
+    <link rel="icon" type="image/svg+xml" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>e.valls</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <ul class="menu">
+          <li class="menu__item">
+            <a class="menu__link menu__link--logo" href="/">e.</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="about.html" data-section="header" data-value="about">About</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="works.html" data-section="header" data-value="works">Projects</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="decoration-name">
+        <span>e.valls</span>
+        <span>e.vall</span>
+        <span>e.va</span>
+        <span>e.v</span>
+      </div>
+
+      <div class="flags" id="flags">
+        <div class="flags__item" data-language="es">
+          <img class="flags__img" src="./assets/images/es.svg" alt="es">
+        </div>
+        <div class="flags__item" data-language="en">
+          <img class="flags__img" src="./assets/images/gb.svg" alt="en">
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- darle el grid al section, cada picture dentro de un div y darle medidas a ese grid -->
+      <section class="decoration-symbols">
+        <div>
+          <picture>
+            <source
+              media="(min-width: 1040px)"
+              srcset="
+                ./assets/images/desktop/medios-circulos-portada-desktop.svg
+              "
+            />
+
+            <source
+              media="(min-width: 720px)"
+              srcset="./assets/images/tablet/medios-circulos-portada-tablet.svg"
+            />
+
+            <img 
+              src="./assets/images/phone/medios-circulos-portada-movil.svg"
+              alt="medios-circulos"
+            />
+          </picture>
+        </div>
+        <div class="decoration-symbols__image"></div>
+        <div>
+          <picture>
+            <source
+              media="(min-width: 1040px)"
+              srcset="./assets/images/desktop/elipse-portada-desktop.svg"
+            />
+            <source
+              media="(min-width: 720px)"
+              srcset="./assets/images/tablet/elipse-portada-tablet.svg"
+            />
+            <img 
+              src="./assets/images/phone/elipse-portada-movil.svg"
+              alt="elipse"
+            />
+          </picture>
+        </div>
+        <div>
+          <picture>
+            <source
+              media="(min-width: 1040px)"
+              srcset="./assets/images/desktop/cuenco-portada-desktop.svg"
+            />
+            <source
+              media="(min-width: 720px)"
+              srcset="./assets/images/tablet/cuenco-portada-tablet.svg"
+            />
+            <img 
+              src="./assets/images/phone/cuenco-portada-movil.svg"
+              alt="cuenco"
+            />
+          </picture>
+        </div>
+        <div class="decoration-symbols__circles">
+          <img 
+            src="./assets/images/phone/circulos-portada-movil.svg"
+            alt="circulos"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <h2 class="footer__subtitle" data-section="footer" data-value="footer-title">Let's work together</h2>
+      <div class="footer__contact">
+        <p>e.vallsalfaro@gmail.com</p>
+        <p>667 387 355</p>
+        <div class="footer__rrss">
+          <a href="https://www.linkedin.com/in/eugenia-valls-alfaro-540b1a20a">
+            <img class="footer__media" src="./assets/images/rrss/icono-linkedin-movil.svg" alt="linkedin">
+          </a>
+          <a href="https://github.com/eugeniavalls">
+            <img class="footer__media" src="./assets/images/rrss/icono-github-movil.svg" alt="github">
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 301 235">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fc441e;
+      }
+
+      .cls-2 {
+        fill: #f5f4f2;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="3" y="2" width="294" height="230"/>
+  <ellipse class="cls-2" cx="150.29" cy="115.52" rx="162.28" ry="83.15" transform="translate(-37.91 92.83) rotate(-30.67)"/>
+</svg>

@@ -1,0 +1,49 @@
+@use "../mixins/hover.scss" as *;
+@use "../mixins/pseudo.scss" as *;
+@use "../mixins/responsive.scss" as *;
+
+.skills {
+  padding: 0 27px;
+
+  @include responsive (tablet){
+    padding: 0 78px;
+    margin-bottom: 48px;
+  }
+
+  @include responsive (desktop){
+    padding: 0 200px;
+    margin-bottom: 70px;
+  }
+
+  &__icons {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(4, 44px);
+    margin-bottom: 1.8rem;
+
+    @include responsive (tablet){
+      grid-template-columns: repeat(6,64px);
+      text-align: center;
+    }
+
+    @include responsive (desktop){
+      grid-template-columns: repeat(6,100px);
+      text-align: center;
+    }
+  }
+
+  &__icon {
+    text-align: center;
+  }
+}
+
+.icon{ 
+  @include responsive (tablet){
+     width: 64px;
+  }
+
+  @include responsive (desktop){
+    width: 100px;
+ }
+   
+} 

@@ -1,0 +1,43 @@
+@use "../mixins/hover.scss" as *;
+@use "../mixins/pseudo.scss" as *;
+@use "../mixins/responsive.scss" as *;
+
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  padding: 0 27px;
+  margin-bottom: 2.3rem;
+
+  @include responsive (tablet){
+    padding: 0 78px;
+    position: relative;
+    top: 15px;
+    margin-bottom: 56px;
+  }
+
+  @include responsive (desktop){
+    padding: 0 200px;
+    position: relative;
+    top: 100px;
+    margin-bottom: 170px;
+  }
+
+  &__picture {
+    width: 50%;
+    margin-right: 10px;
+
+    @include responsive (tablet){
+      margin-right: 15px;
+    }
+  }
+
+  &__vector {
+    width: 100%;
+  }
+
+  &__image {
+    width: 100%;
+  }
+}

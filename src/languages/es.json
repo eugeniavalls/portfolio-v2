@@ -1,0 +1,195 @@
+{
+    "header":{
+        "about": "Sobre mi",
+        "works": "Proyectos"
+    },
+
+    "about-header":{
+        "design": "diseñadora gráfica"
+    },
+
+    "about-do":{
+        "about-do-title": "¿Qué puedo hacer?",
+        "about-do-front-end": "Traducir el diseño visual de un sitio web a código HTML, CSS y JavaScript.",
+        "about-do-uxui": "Definir la interacción en una interfaz con investigación, diseño y tecnología.",
+        "about-do-design-title": "Diseño gráfico",
+        "about-do-design": "Transmitir un mensaje o una idea a través de la comunicación visual."
+    },
+
+    "about-skills":{
+        "skills": "Habilidades"
+    },
+
+    "about-academic":{
+        "academic-title": "Trayectoria académica", 
+
+        "academic-date-cei": "2023 - Actualmente", 
+        "academic-place-cei": "Curso de Desarrollo Web Full Stack Development en CEI Madrid (Madrid, Madrid).",
+        "academic-info-cei": "MERN (MongoDB, ExpressJS, ReactJS, NodeJS), JavaScript, AJAX, Bases de datos (PostgreSQL y MySQL).", 
+
+        "academic-date-unir": "2023 - Actualmente", 
+        "academic-place-unir": "Curso Digital & Soft skills en UNIR - La Universidad en Internet (Online).",
+
+        "academic-date-master": "2022 - 2023", 
+        "academic-place-master": "Master profesional en diseño web front-end y ux/ui en la Escuela Trazos (Madrid, Madrid)",
+        "academic-info-first-master": "Metodologías ágiles, MVP, Scope Canvas, Value Proposition Canvas, Lean UX, Benchmark, Card Sorting, Affinity diagram, User Persona, User Journey, Moscow, Site map, Flujo de navegación, Low-Fi, Mid-fi, Benchamrk Visual, UI Kit, atributos de marca, moodboard, High-Fi, Prototipado, Interacciones, etc.", 
+        "academic-info-second-master": "HTML5, Uso semántico de las etiquetas, estructura, enlaces, imágenes, tablas, formularios, CSS3, pseudo elementos, maquetación en flex, maquetación en grid, transition, metodología BEM, responsive: @media, anidación de elementos, variables en SASS, usando Mixins, JavaScript, variables, declaración, asignación, timers, objetos, arrays, DOM eventos, funciones: parámetros e invocación, estructuras lógicas: bucles y condicionales, selectores, eventos, efectos de JavaScript junto a CSS, etc.", 
+
+        "academic-date-easd": "2018 - 2022", 
+        "academic-place-easd": "Grado en Diseño Gráfico en la Escuela de Arte y Superior de Diseño de Valencia (Valencia).",
+
+        "academic-certificates": "Certificaciones u otros",
+        "certificate-microsoft": "Curso AZ-305T00: Diseño de soluciones de infraestructura de Microsoft Azure.",
+        "certificate-google": "Curso de Desarrollo de Apps Móviles de la Universidad Complutense de Madrid para Google.",
+        "certificate-escuela42": "Piscine Discovery Women’s Edition, programación y talento digital en mujeres en Escuela42 (Madrid, Madrid).",
+        "certificate-uimp": "Curso intensivo de inmersión lingüística de Inglés la Universidad Internacional Méndez Pelayo. (Santander, Cantabria).",
+        "certificate-productivity": "Curso Técnicas para mejorar la productividad."
+    }, 
+
+    "about-experience":{
+        "experience-title": "Experiencia profesional", 
+
+        "first-job-date": "Febrero 2023 - Actualmente", 
+        "first-job-title": "Telefónica. B2B Aproximación Comercial y Nuevos Negocios.",
+        "first-job-info1": "- Diseño y elaboración de infografías instructivas para la Fuerza de Ventas de Telefónica.",
+        "first-job-info2": "- Elaboración de Presentaciones Comerciales Ejecutivas de alto impacto visual.",
+        "first-job-info3": "- Desarrollo de creatividades para dinamización del proyecto en redes sociales.",
+        "first-job-info4": "- Diseño y elaboración de Newsletters.",
+        "first-job-info5": "- Participación en el proceso de diseño in-house de cursos y otros contenidos formativos.",
+        "first-job-info6": "- Apoyo en la realización de documentación profesional para reporting corporativo.",
+
+        "second-job-date": "Mayo 2022 - Septiembre 2022", 
+        "second-job-title": "Copistería Andrés (Canals, Valencia).",
+        "second-job-info": "Diseñadora gráfica.",
+
+        "third-job-date": "Noviembre 2021 - Febrero 2022", 
+        "third-job-title": "Unidad Web y Marqueting en la Universidad de Valencia (Burjassot, Valencia).",
+        "third-job-info": "Diseñadora gráfica."
+    },
+
+    "projects":{
+        "projects-title1": "proyectos",
+        "projects-title2": "proyect"
+    },
+
+    "description":{
+        "button-description": "Descripción"
+    },
+
+    "design":{
+        "design-title1": "diseño",
+        "design-title2": "diseñ", 
+        "design-title3": "dise", 
+        "design-title4": "dis."
+    },
+
+    "prototype":{
+        "button-prototype": "Prototipo"
+    },
+
+    "problems":{
+        "problems-title": "Problemas",
+        "problems-text": "Las personas con dependencia emocional saben que la padecen pero no saben como gestionarlo/superarlo."
+    },
+
+    "solutions":{
+        "solutions-title": "Soluciones",
+        "solutions-text": "Mi propuesta de solución se basa en realizar una aplicación la cual preste ayuda a aquellas personas que tienen dependencia emocional y quieren poner solución al problema. (Desde dar consejos, meditaciones, relacionarse con gente, etc.)"
+    },
+
+    "design-process":{
+        "design-process-title": "Proceso de Diseño",
+        "design-process-text": "El proceso de Design Thinking es un método estructurado para desarrollar productos digitales, servicios o experiencias que aborden de manera efectiva las necesidades del usuario. Hemos utilizado el siguiente procedimiento para diseñar nuestro producto: comprender y conectar con el usuario para identificar sus desafíos, generar ideas basadas en estas percepciones, transformarlas en un prototipo y luego buscar comentarios del usuario para refinar y mejorar el producto. ",
+        "design-process-emphtaize": "Empatizar",
+        "design-process-define": "Definir",
+        "design-process-ideate": "Idear",
+        "design-process-prototype": "Prototipar",
+        "design-process-test": "Testear"
+    },
+
+    "affinity":{
+        "affinity-title": "Diagrama de afinidad",
+        "affinity-miedos": "Miedos",
+        "affinity-soledad": "Soledad",
+        "affinity-rechazo": "Rechazo",
+        "affinity-abandono": "Abandono",
+        "affinity-desilusion": "Desilusión",
+        "affinity-no-proyeccion": "No proyección",
+        "affinity-decepcion": "Decepción",
+        "affinity-desconfianza": "Desconfianza",
+        "affinity-inseguridad": "Inseguridad",
+        "affinity-ruptura": "Ruptura",
+        "affinity-necesidades": "Necesidades",
+        "affinity-soporte-amoroso": "Soporte amoroso",
+        "affinity-sentirse-queridx": "Sentirse queridx",
+        "affinity-sentirse-acompañadx": "Sentirse acompañadx",
+        "affinity-planes": "Planes",
+        "affinity-leer": "Leer",
+        "affinity-ver-series": "Ver series",
+        "affinity-limpieza-interior": "Limpieza interior",
+        "affinity-estar-solx-en-la-cama": "Estar solx en la cama",
+        "affinity-pasar-tiempo-solx": "Pasar tiempo solx",
+        "affinity-personalidad": "Personalidad",
+        "affinity-toxicidad": "Toxicidad",
+        "affinity-ansiedad": "Ansiedad",
+        "affinity-tranquila": "Tranquila",
+        "affinity-obsesiva": "Obsesiva",
+        "affinity-independiente": "Independiente",
+        "affinity-loca": "'Loca'",
+        "affinity-vinculos": "Vinculos",
+        "affinity-expareja": "Expareja",
+        "affinity-pareja": "Pareja",
+        "affinity-amigos": "Amigos"
+    },
+
+    "user-persona":{
+        "user-persona-title": "Patri, 23 años",
+        "user-persona-text1": "Patri es una chica que vive en Madrid.",
+        "user-persona-text2": "Vive aquí toda la vida y conoció a su pareja en la universidad. Su pareja no es de aquí y hace nada que se fueron a vivir juntos.",
+        "user-persona-text3": "Le encanta la vida en família y no ve más allá de eso.",
+        "user-persona-text4": "Patri tiene dependencia emocional pero no sabe como gestionarla ni ponerle solución.",
+        "user-persona-personalidad": "Personalidad",
+        "user-persona-personalidad1": "- Extrovertida",
+        "user-persona-personalidad2": "- Busca validación externa",
+        "user-persona-personalidad3": "- Cariñosa solo con su pareja",
+        "user-persona-personalidad4": "- Distante",
+        "user-persona-motivaciones": "Motivaciones",
+        "user-persona-motivaciones1": "- Pasar tiempo con su pareja",
+        "user-persona-motivaciones2": "- Formar una família",
+        "user-persona-motivaciones3": "- Pensar que su pareja nunca la dejará",
+        "user-persona-estilo-de-vida": "Estilo de vida",
+        "user-persona-estilo-de-vida1": "- Consumista",
+        "user-persona-estilo-de-vida2": "- Trabaja",
+        "user-persona-estilo-de-vida3": "- No ve ya a sus amigas de toda la vida",
+        "user-persona-estilo-de-vida4": "- No mantiene ningún vículo laboral",
+        "user-persona-creencias": "Creencias",
+        "user-persona-creencias1": "Patri antes no creía en nada, solo en las energías y el infinito. Pero desde que esta con Pedro se ha hecho católica y ya no cree en sus propias creencias de antes",
+        "user-persona-frustraciones": "Frustraciones",
+        "user-persona-frustraciones1": "- Se ha dado cuenta de que tiene dependencia emocional",
+        "user-persona-frustraciones2": "- Tiene miedo al cambio",
+        "user-persona-frustraciones3": "- Sabe que las cosas no están bien, solo que no las afronta",
+        "user-persona-necesidades-y-deseos": "Necesidades y deseos",
+        "user-persona-necesidades-y-deseos1": "- Tiene necesidad constante de su pareja",
+        "user-persona-necesidades-y-deseos2": "- Desea que sea el hombre de su vida aunque tenga que renunciar a sus propios valores, creencias, amistades o lo que sea"
+    },
+
+    "style-guide":{
+        "style-guide-title": "Guía de estilo",
+        "style-guide-tipografia": "Tipografía",
+        "style-guide-colores": "Colores",
+        "style-guide-color-primario": "Color primario",
+        "style-guide-color-secundario": "Color secundario",
+        "style-guide-color-texto": "Color texto",
+        "style-guide-componentes": "Componentes",
+        "style-guide-botones": "Botones",
+        "style-guide-toolbar": "Barra de herramientas",
+        "style-guide-iconos": "Iconos",
+        "style-guide-recursos": "Recursos",
+        "style-guide-low-fidelity": "Baja fidelidad",
+        "style-guide-high-fidelity": "Alta fidelidad"
+    },
+
+    "footer":{
+        "footer-title": "Vamos a trabajar juntxs"
+    }
+}

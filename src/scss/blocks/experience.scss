@@ -1,0 +1,67 @@
+@use "../mixins/hover.scss" as *;
+@use "../mixins/pseudo.scss" as *;
+@use "../mixins/responsive.scss" as *;
+
+.experience {
+  padding: 0 27px;
+
+  @include responsive (tablet){
+    padding:  0 78px;
+  }
+
+  @include responsive (desktop){
+    padding:  0 200px;
+  }
+
+  &__picture{
+    @include responsive (tablet){
+      flex-shrink: 0;
+      width: 200px;
+    }
+
+    @include responsive (desktop){
+      flex-shrink: 0;
+      width: 350px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    @include responsive (tablet){
+      flex-direction: row-reverse;
+      gap: 3rem;
+    }
+  }
+
+  &__jobs {
+    margin-bottom: 1rem;
+  }
+
+  &__job {
+    margin-bottom: 0.3rem;
+    line-height: 1.2;
+  }
+
+  &__text-container{
+    margin-bottom: 1.8rem;
+
+    @include responsive (tablet){
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__picture--uxui{
+    @include responsive (tablet){
+      flex-shrink: 0;
+      width: 100%;
+    }
+
+    @include responsive (desktop){
+      flex-shrink: 0;
+      width: 100%;
+    }
+  }
+}
